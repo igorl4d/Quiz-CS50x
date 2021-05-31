@@ -1,3 +1,4 @@
+
 # Quiz-CS50x
 ⁉ Página feito ao curso CS50x de Harvard. A página é um quiz, e inicia meus estudos em HTML, CSS, e JS!
 
@@ -7,3 +8,4 @@
 
 ![p3](https://user-images.githubusercontent.com/81971672/120230273-558fd480-c225-11eb-87a0-d6f5757941f3.png)
 
+![p4](https://user-images.githubusercontent.com/81971672/120230368-896afa00-c225-11eb-9b24-93fdc16d0e52.png)
