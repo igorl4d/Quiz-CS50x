@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="styles.css" rel="stylesheet">
+        <script src = 'script.js' ></script>
+    </head>
+    <body>
+
+        <div class = 'jumbotron' id = 'jumbo'>
+            <h1 class = 'jumbotron' id ='cabeca'>Quiz!</h1>
+        </div>
+
+        <div class="container">
+
+            <div class="section">
+                <h2>Parte 1: Multipla Escolha </h2>
+                <hr>
+
+                <!-- TODO: Add multiple choice question here -->
+                <h3 class = 'font'> Em que século os Portugueses chegaram ao Brasil?</h3>
+                <div id = 'errado1' class = 'font'></div>
+                <button type = 'button' id = 'button1' onclick = 'wrong()'>15</button>
+                <button type = 'button' id = 'button2' onclick = 'right()'>16</button>
+                <button type = 'button' id = 'button3' onclick = 'wrong()'>14</button>
+                <button type = 'button' id = 'button4' onclick = 'wrong()'>13</button>
+
+
+            </div>
+            <div class="section">
+
+                <h2>Parte 2: Resposta em texto</h2>
+                <hr>
+                <h3 class = 'font'>Quem foi o primeiro grande explorador a chegar nas Américas?</h3>
+                <!-- TODO: Add free response question here -->
+                <div id = 'errado2' class = 'font'></div>
+
+                    <input type= 'text' id = 'resposta' autocomplete ='off'>
+                    <input type= 'submit' id = 'submit_box' value = 'Enviar' onclick ='text()' disabled >
+
+            </div>
+
+        </div>
+
+
+    </body>
+</html>
